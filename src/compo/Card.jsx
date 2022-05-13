@@ -1,13 +1,13 @@
 import images from "../images/images.png"
 import React from "react"
 //props backend to be added
-export default function Card() {
+export default function Card(props) {
     return (
-        <div  >
+        <div  class='col-auto'>
             <div class="border-0 bg-[#B7D3F2] shadow-lg w-[10vw] h-[15vw]  mx-auto  rounded-sm ">
                 <div>
 
-                    <img src={images} alt="img not found" class=" rounded-t-[1.5vw] h-[10vw] w-[10vw] p-2 " />
+                    <img src={props.imglink} alt="img not found" class=" rounded-t-[1.5vw] h-[10vw] w-[10vw] p-2 " />
                 </div>
                 <div class=' text-center '>
                     <p class=' text-[0.5vw] text-white'>
@@ -15,7 +15,7 @@ export default function Card() {
                     </p>
 
                     <h1 class='text-[#79BEEE] py-1 text-[1vw]'>
-                        SINCE 2015
+                        {props.year}
                     </h1>
                     <p className="text-white underline text-[0.5vw]">
                         lora lumsum
