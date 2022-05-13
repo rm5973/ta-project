@@ -1,9 +1,10 @@
 import images from "../images/images.png"
 import React from "react"
+//props backend to be added
 export default function Card() {
     return (
         <div  >
-            <div class="border-0 bg-[#B7D3F2] shadow-md w-[10vw] h-[15vw]  mx-auto  rounded-sm">
+            <div class="border-0 bg-[#B7D3F2] shadow-lg w-[10vw] h-[15vw]  mx-auto  rounded-sm ">
                 <div>
 
                     <img src={images} alt="img not found" class=" rounded-t-[1.5vw] h-[10vw] w-[10vw] p-2 " />
