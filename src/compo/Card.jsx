@@ -41,7 +41,7 @@ export default function Card(props) {
                     </p>
 
                     <h1 class='text-[#79BEEE] py-1 text-[1vw]'>
-                        SINCE 2015
+                    {props.year}
                     </h1>
                     <p className="text-white underline text-[0.5vw]">
                         lora lumsum
@@ -61,7 +61,7 @@ export default function Card(props) {
                     </p>
 
                     <h1 class='text-[#79BEEE] py-1 text-[1vw]'>
-                        SINCE 2015
+                    {props.year}
                     </h1>
                     <p className="text-white underline text-[0.5vw]">
                         lora lumsum
@@ -80,7 +80,7 @@ export default function Card(props) {
                     </p>
 
                     <h1 class='text-[#79BEEE] py-1 text-[1vw]'>
-                        SINCE 2015
+                    {props.year}
                     </h1>
                     <p className="text-white underline text-[0.5vw]">
                         lora lumsum
@@ -99,7 +99,7 @@ export default function Card(props) {
                     </p>
 
                     <h1 class='text-[#79BEEE] py-1 text-[1vw]'>
-                        SINCE 2015
+                    {props.year}
                     </h1>
                     <p className="text-white underline text-[0.5vw]">
                         lora lumsum
